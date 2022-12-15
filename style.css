@@ -1,0 +1,131 @@
+/*reset*/
+* {
+    margin:0;
+}
+/*header and nav css*/
+header {
+    display:flex;
+    background-color: cadetblue;
+    padding:10px 20px;
+}
+header h1 {
+    display: inline-block;
+}
+
+header nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin:0 5px;
+    text-align: center;
+}
+
+/*About Me Styling*/
+#AboutMe {
+    margin: 5%;
+}
+
+#AboutMe h2 {
+    text-align: center;
+}
+
+/*Work Section Styling*/
+#Work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1%;
+    background-color: lightgrey;
+}
+
+#Work h2 {
+    text-align: start;
+    margin: 2% 0 0 2%;
+}
+
+.PreworkProject {
+    margin: 1%;
+}
+
+.PreworkProject h3 {
+    text-align: center;
+}
+
+.PreworkProject img {
+    max-width: 100%;
+    max-height: 50%;
+    min-width: 0;
+}
+
+
+.HoriseonProject {
+   margin: 1%;
+}
+
+.HoriseonProject h3 {
+    text-align: center;
+}
+
+.HoriseonProject img {
+    max-width: 100%;
+    max-height: 50%;
+    min-width: 0;
+}
+
+.futureProjectOne {
+    margin: 1%;
+ }
+ .futureProjectOne h3 {
+     text-align: center;
+ }
+ 
+ .futureProjectOne img {
+     max-width: 100%;
+     max-height: 50%;
+     min-width: 0;
+ }
+
+ .futureProjectTwo {
+    margin: 1%;
+ }
+ 
+ .futureProjectTwo h3 {
+     text-align: center;
+ }
+ 
+ .futureProjectTwo img {
+     max-width: 100%;
+     max-height: 50%;
+     min-width: 0;
+ }
+ 
+/*Contact/footer styling*/
+#Contact {
+    display: flex;
+    background-color: cadetblue;
+    padding:10px 20px;
+}
+
+#Contact h2 {
+    display: inline-block;
+}
+
+#Contact ul {
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+
+#Contact ul li {
+    display:inline-block;
+    margin:0 5px;
+    text-align: end;
+}
