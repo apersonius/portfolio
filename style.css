@@ -30,11 +30,23 @@ header nav ul li {
 
 /*About Me Styling*/
 #AboutMe {
-    margin: 5%;
+    margin: 5% 2%;
 }
 
 #AboutMe h2 {
     text-align: center;
+}
+
+#AboutMe img {
+    max-width: 15%;
+}
+
+#AboutMe p {
+    max-width: 83%;
+    float: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 100px;
 }
 
 /*Work Section Styling*/
@@ -75,8 +87,8 @@ header nav ul li {
 }
 
 .HoriseonProject img {
-    max-width: 100%;
-    max-height: 50%;
+    max-width: 80%;
+    max-height: 30%;
     min-width: 0;
 }
 
